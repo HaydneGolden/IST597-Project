@@ -1,0 +1,43 @@
+OpenAI Key
+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
+
+OpenAI Website
+https://platform.openai.com/usage
+
+Need to fine tune the model so it incorporates data from 2023
+It stops at Osa, Year 6 Season 3 (September 2021)
+
+I need to create a file full of questions/prompts to be fine tuned.
+https://www.datacamp.com/tutorial/how-to-fine-tune-gpt3-5
+https://scale.com/blog/fine-tune-gpt-3.5
+
+
+To Do: 3/7
+- Customize Flask
+- Work on Fine Tuning the new data
+- Create Documentation and notes
+
+
+
+Week:
+3/7
+- Workout
+- IST 597 Project
+- Trip
+
+3/8
+- Workout
+- Plasma
+- Paper Reviews 1,2,4
+- IST 597 HW2
+- Submit Hours
+
+3/9
+- Workout
+- Lunch
+- IST 558 HW2
+- Game
+
+3/10
+- North 10-3
+- IST 558 HW2

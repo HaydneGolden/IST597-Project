@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+</head>
+<body>
+    <h1>Generated Text</h1>
+    <h3>User Input:</h3>
+    <p>{{ user_input }}</p>
+    <h3>Generated Text:</h3>
+    <p>{{ generated_text }}</p>
+<form action="/generate" method="POST">
+        <label for="user_input">Enter your input:</label><br>
+        <textarea id="user_input" name="user_input" rows="4" cols="50"></textarea><br>
+        <input type="submit" value="Generate">
+    </form>
+</body>
+</html>
