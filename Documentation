@@ -1,0 +1,42 @@
+Ops Oracle (WIP)
+
+1. Introduction
+- Overview of the project
+   - Goals and objectives
+    * Goal of the project is to provide Rainbow Six Siege players with a tool to
+      suggest better strategies to use in game based off the operators selected by the other team.
+      Users would input the opponent's operator lineup along with the map+site they are playing on.
+      The model would then use the available data provided to return a list of options to use for the round.
+      This will help new players learn and understand the large complexity and learning curve of the game while helping advanced players
+      raise the ceiling of their performance.
+    * The data being used for to train and fine-tune the model is between December 2015 and December 2023.
+      The reason for this is that R6 updates frequently and has big updates every 3 months called Seasons. Since a new season will be released March 12th 2024, it makes it easier to limit
+      our model to the recent season.
+    * Currently the project can be accessed via Flask which makes a web page with a GPT interface
+      for the user to interact with. The future alternative will be a GUI created through PyQt5 that will be an overlay
+      for when users are playing R6. The Flask page is will be easier to share as it can be hosted online for users to test the tool
+      till the GUI interface has been completed, and can be shared using certain software to run the .exe file.
+
+2. Requirements
+   - List of project requirements
+     - Functional requirements
+      *
+     - Non-functional requirements
+
+3. Installation
+   - Steps to set up the project environment
+   - Dependencies and prerequisites
+
+4. Usage
+   - Instructions for using the project
+   - Examples or usage scenarios
+
+5. Troubleshooting
+   - Common issues and solutions
+   - Troubleshooting tips
+
+6. Resources
+   - Links to relevant documentation
+   - References and resources
+
+Last Updated: March 6, 2024

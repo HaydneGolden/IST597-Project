@@ -4,7 +4,7 @@ import openai
 app = Flask(__name__, static_folder='static', template_folder='templates')
 
 # Set your OpenAI API key
-openai.api_key = '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'
+openai.api_key = ''
 
 
 @app.route('/')
@@ -24,7 +24,6 @@ def generate_text():
         ],
         max_tokens=10
     )
-
     generated_text = response['choices'][0]['message']['content']
     return render_template('result.html', user_input=user_input, generated_text=generated_text)
 
